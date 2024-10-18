@@ -1,4 +1,5 @@
-
+# main.py
+import sys
 import json
 
 class Task:
@@ -109,3 +110,6 @@ def main():
 
 if __name__ == "__main__":
     main()
+    
+with open("output.txt", "w") as f:
+    print("This is the output from my Python code:", file=f)
