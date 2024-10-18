@@ -1,0 +1,7 @@
+modules = ["python-base-3.11", "python-3.10", "python-base-3.13", "python-3.12", "python-base-3.12", "python-3.11"]
+run = "python main.py"
+[nix]
+channel = "stable-24_05"
+
+[deployment]
+run = ["sh", "-c", "python main.py"]
