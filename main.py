@@ -1,5 +1,4 @@
 # main.py
-import sys
 import json
 
 class Task:
@@ -110,19 +109,4 @@ def main():
 
 if __name__ == "__main__":
     main()
-    
-def main():
-    
-    with open("output.txt", "w") as f:
-        print("To-Do List Output:", file=f)
-        print("-----------------", file=f)
 
-        while True:
-            input_line = input()  
-            if input_line == 'exit':  
-                break
-            print(input_line, file=f)  
-            print(input_line)  
-            
-if __name__ == "__main__":
-    main()
